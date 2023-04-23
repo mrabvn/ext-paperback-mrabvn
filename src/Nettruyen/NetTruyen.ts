@@ -17,16 +17,16 @@ import {
     TagType,
 } from "paperback-extensions-common";
 
-const DOMAIN = "https://hentaivn.run/";
+const DOMAIN = "https://nettruyenvt.com/";
 const userAgent =
     "Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1";
 
-export const HentaiVN: SourceInfo = {
+export const NetTruyen: SourceInfo = {
     version: "1.0.2",
-    name: "HentaiVN",
+    name: "NetTruyện",
     icon: "icon.png",
     author: "MrAB",
-    description: "Extension that pulls hentai from HentaiVN",
+    description: "Extension that pulls manga from NetTruyen",
     contentRating: ContentRating.EVERYONE,
     websiteBaseURL: DOMAIN,
     authorWebsite: "https://github.com/mrabvn/ext-paperback-mrabvn",
