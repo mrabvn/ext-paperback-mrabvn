@@ -1,7 +1,7 @@
 {
   "name": "extensions-vn",
   "version": "1.0.1",
-  "description": "The source for Viet Nam",
+  "description": "The source for Viet Nam by MrAB",
   "main": "index.js",
   "scripts": {
     "test": "node_modules\\.bin\\mocha --timeout 300000 -r ts-node/register src/**/*.test.ts",
@@ -11,10 +11,10 @@
     "serve": "paperback serve",
     "deploy": "gh-pages -d bundles"
   },
-  "author": "Hoang3409 & Faizan Durrani",
+  "author": "MrAB",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hoang3402/extensions-vn/issues"
+    "url": "https://github.com/mrabvn/ext-paperback-mrabvn/issues"
   },
   "devDependencies": {
     "@types/chai": "^4.3.4",
